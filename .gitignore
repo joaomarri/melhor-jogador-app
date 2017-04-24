@@ -1,6 +1,5 @@
 #      Commons
 *.bin
-*.class
 *.bat
 .classpath
 .settings/
@@ -17,11 +16,6 @@ build/**/*
 **/*.orig
 **/*.db
 Thumbs.db
-build/
-*.orig
-/target/classes
-/target/maven-status
-/target/maven-archiver
 /bin
 *.jar
 *.original
