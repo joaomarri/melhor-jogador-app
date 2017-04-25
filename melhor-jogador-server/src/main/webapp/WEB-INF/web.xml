@@ -3,7 +3,7 @@
 	      http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 
-	<display-name>consulta de viagens</display-name>
+	<display-name>AGFCC - melhor jogador</display-name>
 
 	<!-- In favor for annotation
 	<servlet>
