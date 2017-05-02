@@ -36,7 +36,7 @@ public class WelcomeController {
 	private ViagemService viagemService;
 	
 	
-	@RequestMapping(value = "/", method = RequestMethod.GET)
+	@RequestMapping(value = "/viagens", method = RequestMethod.GET)
 	public String welcome(Model model) {
 
 		logger.debug("Teste do serviço soap - pesquisar solicitações de viagens");
@@ -58,6 +58,14 @@ public class WelcomeController {
 		
 		return "welcome";
 
+	}
+	
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String getIndex() {
+
+		logger.info("Teste index");
+		
+		return "index";
 	}
 
 }
