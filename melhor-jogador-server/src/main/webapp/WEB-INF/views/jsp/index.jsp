@@ -1,5 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<% response.sendRedirect("/static/index.html"); %>
+<% response.sendRedirect(request.getContextPath() +"/static/index.html"); %>
 
 <%-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
