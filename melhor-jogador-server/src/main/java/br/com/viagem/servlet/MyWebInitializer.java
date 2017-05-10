@@ -35,7 +35,7 @@ public class MyWebInitializer extends AbstractAnnotationConfigDispatcherServletI
 	@Override
 	public void onStartup(ServletContext servletContext) throws ServletException {
 		super.onStartup(servletContext);
-		servletContext.setInitParameter("spring.profiles.active", "hsql");
+		//servletContext.setInitParameter("spring.profiles.active", "dev");
 	}
 
 }

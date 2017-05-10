@@ -135,6 +135,12 @@
 					<webApp>
 						<contextPath>/</contextPath>
 					</webApp>
+					 <systemProperties>
+            			<systemProperty>
+                			<name>spring.profiles.active</name>
+                			<value>dev</value>
+            			</systemProperty>
+        			</systemProperties>
 				</configuration>
 			</plugin>
 			

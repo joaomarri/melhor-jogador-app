@@ -25,13 +25,12 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  *
  */
 
-@Profile("hsql")
+@Profile("dev")
 @Configuration
 @EnableTransactionManagement
 @ComponentScan({ "br.com.viagem" })
 public class HsqlDataSource {
 
-	//jdbc:hsqldb:mem:testdb
 	@Bean
 	public DataSource dataSource() {
 		
